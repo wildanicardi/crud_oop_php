@@ -1,0 +1,62 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+h2{
+	float: left;
+	margin: 5px 25%;
+	width: 58%;
+	text-align: center;
+	background: #2ecc71;
+	color: white;
+	padding: 10px;
+}
+.tampil{
+	float: left;
+	margin: 5px 25%;
+	width: 50%;
+	border-collapse: collapse;
+}
+.tampil thead {
+	background: #1abc9c;
+	color: white;
+
+}
+.tampil thead th{
+	padding: 10px;
+	text-align: center;
+
+}
+.tampil tbody td{
+	padding: 10px;
+	border: 1px solid #ddd;
+}
+.tampil tbody td:first-child{
+	text-align: center;
+	width: 50px;
+}
+.tampil tbody td:last-child{
+	text-align: center;
+}
+.tampil tbody td a{
+	text-decoration:none;
+	color: white;
+	padding: 4px 14px;
+	font-weight: bold;
+}
+.edit{
+		background: #2980b9;
+}
+.hapus{
+	background: #e74c3c;
+}
+.btn-tambah{
+	margin: 5px 25%;
+	float: left;
+	text-decoration: none;
+	color: white;
+	background: #27ae60;
+	padding: 10px;
+}
+
